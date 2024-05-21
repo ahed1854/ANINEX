@@ -3,7 +3,7 @@ function countdown() {
   seconds = seconds - 1;
   if (seconds < 0) {
     console.log("you'le be redirected !!");
-    // window.location("https://www.google.com");
+    window.open.replace("https://www.google.com");
   } else {
     document.getElementById("countdown").innerHTML = seconds;
     window.setTimeout("countdown()", 1000);
